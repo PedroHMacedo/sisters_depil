@@ -2,6 +2,7 @@ import 'package:depilacao_sisters/design_system/core/ui_helper.dart';
 import 'package:depilacao_sisters/presenters/home/widgets/custom_elevated_button.dart';
 import 'package:depilacao_sisters/presenters/home/widgets/item_menu.dart';
 import 'package:depilacao_sisters/presenters/infos/infos_view.dart';
+import 'package:depilacao_sisters/presenters/quem_somos/quem_somos_view.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -49,6 +50,7 @@ class HomeView extends StatelessWidget {
               ),
             ),
             const InfosView(),
+            const QuemSomosView(),
           ],
         ),
       ),
